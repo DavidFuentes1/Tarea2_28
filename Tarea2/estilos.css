@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Contenedor{
+    width: 70%;
+    margin: 0px auto;
+}
+.izquierda{
+    float: left;
+    width: 40%;
+    background: aqua;
+    min-height: 300px;
+}
+.derecha{
+    float: right;
+    width: 60%;
+    background: beige;
+    height: 380px;
+}
+.libre{
+    clear: both;
+}
+footer{
+    background: black;
+    color: white;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+
+}
+header{
+
+    background: blue;
+    height: 150px;
+    width: 100%;
+    text-align: center;
+    line-height: 150px;
+    color: aliceblue;
+    border-bottom: 2px solid red;
+}
+nav#Menus {
+
+    background: skyblue;
+    height: 100px;
+    text-align: center;
+    line-height: 1px;
+    border-bottom: 3px dashed red;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 50px;
+}
+iframe {
+    border: 1px solid black;
+    width:25%;
+}
+
+.output {
+    background: #fff;
+}
+nav#Curriculum{
+    width: 30%;
+}
+nav ul#c li{
+    margin: auto;
+}
+nav ul#d li{
+    margin: 1px;
+    float: none;
+}
